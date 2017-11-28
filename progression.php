@@ -15,7 +15,7 @@ class Progression
 		if ($this->arithmetic()) {
 			return 'Your sequence of numbers is a arithmetic progression.';
 		} elseif ($this->geometric()) {
-			return 'Your sequence of numbers is a arithmetic geometric progression.';
+			return 'Your sequence of numbers is a geometric progression.';
 		} else {
 			throw new Exception("The sequence is not one of the types of progression.");
 		}
